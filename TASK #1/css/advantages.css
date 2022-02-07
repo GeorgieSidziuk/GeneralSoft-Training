@@ -78,12 +78,12 @@
 
 }
 
-.card-btn {
+.card-btn{
 	display: flex;
 	justify-content: center;
-	
-	
+	align-items: center;
 }
+
 
 .card-btn button{
 	width: 70px;
@@ -96,6 +96,8 @@
 	color: white;
 	background-color: #637f83;
 	cursor: pointer;
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
