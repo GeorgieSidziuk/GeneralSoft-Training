@@ -1,0 +1,101 @@
+.advantages{
+	background-color: #f6f6f6;
+}
+
+.advantages-title {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #637f83;
+}
+
+.main-title {
+	
+	margin-bottom: 16px;
+	line-height: 1.2;
+	font-size: 32px;
+	font-weight: 700;
+	
+}
+
+.description {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.advntages-row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.advantages-row__card {
+	width: 260px;
+	padding: 10px;
+	 margin: 10px;
+	 border-radius: 14px;
+}
+.advantages-row__card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transition: all 0.3s ease;
+	
+}
+
+
+.card-icon {
+	margin-bottom: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* флекс применяется не к картинке, а к блоку с картинкой */
+	
+}
+.fas{
+	font-size: 64px;
+	color: coral;
+}
+
+
+.card-text {
+	margin-bottom: 27px;
+	
+}
+
+.card-text h4{
+	margin-bottom: 22px;
+	line-height: 1.2;
+	font-size: 24px;
+	font-weight: 700;
+	color: #637f83;
+}
+
+.card-text p {
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #959494;
+
+}
+
+.card-btn {
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+.card-btn button{
+	width: 70px;
+	padding: 12px 18px ;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 900;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	background-color: #637f83;
+	cursor: pointer;
+	
+}
+
