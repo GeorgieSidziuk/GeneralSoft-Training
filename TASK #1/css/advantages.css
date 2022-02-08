@@ -1,4 +1,6 @@
 .advantages{
+	width: 100%;
+	height: 100vh;
 	background-color: #f6f6f6;
 }
 
@@ -31,8 +33,8 @@
 }
 
 .advantages-row__card {
-	width: 260px;
-	padding: 10px;
+	width: 265px;
+	padding: 16px;
 	 margin: 10px;
 	 border-radius: 14px;
 }
@@ -51,7 +53,7 @@
 	/* флекс применяется не к картинке, а к блоку с картинкой */
 	
 }
-.fas{
+.adv-icons {
 	font-size: 64px;
 	color: coral;
 }
@@ -101,3 +103,10 @@
 	align-items: center;
 }
 
+.card-btn button:hover{
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.card-btn button:active{
+	color: coral;
+}

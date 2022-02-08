@@ -1,0 +1,90 @@
+.screen {
+	position: relative;
+	width: 100%;
+	height: 91vh;
+	background-image: url('../img/backgrounds/banner_143.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	z-index: 1;
+}
+
+.screen::after{
+   content: '';
+   position: absolute;
+   display: block;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+  
+   
+}
+
+.container {}
+
+.screen-row {
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+
+
+}
+
+.screen-title {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.screen-title h1{
+	margin-bottom: 35px;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.screen-title p {
+	margin-bottom: 40px;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+
+.screen-arrow {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	color: white;
+	background-color: coral;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: bounce 4s ease-in-out infinite;
+	animation-delay: 2s;
+	transition: all 1s ease;
+}
+
+@keyframes bounce {
+
+	0%,
+	10%,
+	20%,
+	30%,
+	100% {
+		transform: translateY(0);
+	}
+
+	5%,
+	15%,
+	25% {
+		transform: translateY(-20px);
+	}
+}
+
+
+.screen-icon{
+	font-size: 40px;
+}
