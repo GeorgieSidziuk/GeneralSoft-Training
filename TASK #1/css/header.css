@@ -1,0 +1,50 @@
+
+.header {}
+
+.section {}
+
+.container {}
+
+.header-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+	
+}
+
+.logo-link {
+	font-size: 32px;
+	color: #637f83;
+	font-weight: 900;
+}
+.logo-link:hover{
+		transition: all 0.2s ease-in-out;
+		color: coral;
+}
+.header-navigation {
+    
+}
+
+.header-nav__list {
+	display: flex;
+	
+}
+
+.nav-list__item {
+	padding: 24px;
+}
+
+.nav-link {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #637f83;
+}
+
+.nav-link:hover{
+		transition: all 0.2s ease-in-out;
+	color: coral;
+}
