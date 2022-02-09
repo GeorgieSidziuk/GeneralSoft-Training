@@ -1,0 +1,46 @@
+.profiles {}
+
+.container {}
+
+.profiles-row {
+	display: flex;
+	flex-wrap: wrap;
+
+	
+}
+
+.profiles-card {
+	width: 535px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	display: flex;
+	
+}
+
+.profile-card__avatar {
+	padding: 15px;
+}
+
+.profile-card__description {
+	padding: 15px;
+}
+
+.profile-card__description h4{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #637f83;
+}
+.profile-card__description p{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #959494;
+}
+
+.more {
+	/* display: block; */
+    padding-left: 5px;
+	color: coral;
+}
