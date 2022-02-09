@@ -33,18 +33,29 @@
 	
 }
 
+
 .nav-list__item {
 	padding: 24px;
+	cursor: pointer;
 }
+.nav-list__item:hover{
 
+}
 .nav-link {
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #637f83;
+	transition: all 0.2s ease-in-out;
 }
 
-.nav-link:hover{
-		transition: all 0.2s ease-in-out;
+.nav-link:hover {
+	
 	color: coral;
 }
+
+.nav-link:active {
+
+	color: orangered;
+}
+

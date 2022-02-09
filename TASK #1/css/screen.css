@@ -26,7 +26,7 @@
 .container {}
 
 .screen-row {
-	width: 500px;
+	width: 600px;
 	display: flex;
 	justify-content: center;
 	align-items: center;

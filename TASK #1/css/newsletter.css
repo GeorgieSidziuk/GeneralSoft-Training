@@ -1,0 +1,30 @@
+.newsletter {
+	background-color: #637f83;
+}
+
+.container {}
+
+.newsletter-row {
+	
+}
+
+.newsletter-title {
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.newsletter-title h3 {
+	font-size: 34px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.newsletter-title p {
+	font-size: 24px;
+	font-weight: 300;
+}
