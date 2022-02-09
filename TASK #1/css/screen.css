@@ -36,6 +36,7 @@
 }
 
 .screen-title {
+	margin-bottom: 180px;
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
@@ -47,7 +48,7 @@
 }
 
 .screen-title p {
-	margin-bottom: 40px;
+	
 	font-size: 16px;
 	font-weight: 400;
 
